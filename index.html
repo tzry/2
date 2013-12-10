@@ -54,7 +54,7 @@
    function capturePhoto() {
 
 		// 使用设备上的摄像头拍照，并获得Base64编码字符串格式的图像
-		navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 20,destinationType: destinationType.DATA_URL, });
+		navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 20,destinationType: destinationType.DATA_URL });
    }
    
    // “Capture Editable Photo”按钮点击事件触发函数
